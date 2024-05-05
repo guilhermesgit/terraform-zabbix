@@ -1,4 +1,4 @@
-## Descrevao nome da feature
+## Descreva o nome da feature
 
 ## Rodou os comandos do pre-commit
 - [ ] Rodou o teste manual do hook
