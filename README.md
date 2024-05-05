@@ -4,7 +4,7 @@ Criação da automação de toda infraestrutura e configuração do ambiente de 
 ## Custo
 
 | Name | Monthly Qty | Unit | Monthly Cost |
-|------|---------|
+|------|-------------|------|--------------|
 |Instance usage (Linux/UNIX, on-demand, t2.micro) | 730 | hours  | $8.47 |
 |root_block_device Storage (general purpose SSD, gp2) | 8 | GB  |  $0.80 |
 |Total |  |   | $9.27 |
