@@ -1,6 +1,14 @@
 ## Criação de um abiente de testes utilizando zabbix na AWS"
 Criação da automação de toda infraestrutura e configuração do ambiente de testes para utilizar: zabbix e grafana.
 
+## Custo
+
+| Name | Monthly Qty | Unit | Monthly Cost |
+|------|---------|
+|Instance usage (Linux/UNIX, on-demand, t2.micro) | 730 | hours  | $8.47 |
+|root_block_device Storage (general purpose SSD, gp2) | 8 | GB  |  $0.80 |
+|Total |  |   | $9.27 |
+
 ## Requirements
 
 | Name | Version |
