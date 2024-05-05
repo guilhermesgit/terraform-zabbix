@@ -9,7 +9,7 @@ sudo curl -fsSL https://get.docker.com | bash
 
 sudo usermod -aG docker $USER
 sudo newgrp docker
-sudo chown $USER /var/run/docker.sock 
+sudo chown $USER /var/run/docker.sock
 
 #Instala o docker compose
 sudo curl -L https://github.com/docker/compose/releases/download/v2.16.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
@@ -84,7 +84,7 @@ services:
       - PHP_TZ=America/Sao_Paulo
     depends_on:
       - mysql
-   
+
   grafana:
     container_name: grafana
     image: grafana/grafana
@@ -96,7 +96,7 @@ services:
     restart: always
     ports:
       - '3000:3000'
-    environment: 
+    environment:
       - GF_INSTALL_PLUGINS=alexanderzobnin-zabbix-app
     depends_on:
       - mysql
@@ -119,7 +119,4 @@ services:
       - ZBX_HOSTNAME=Zabbix server
       - ZBX_SERVER_HOST=172.18.0.1" > docker-compose.yml
 sudo cp docker-compose.yml /home/ubuntu/
-sudo cd /home/ubuntu/ ; sudo docker-compose up -d 
-
-
-
+sudo cd /home/ubuntu/ ; sudo docker-compose up -d
