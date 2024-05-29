@@ -1,7 +1,7 @@
 ## Criação de um ambiente de testes utilizando zabbix na AWS
 Criação da automação de toda infraestrutura e configuração do ambiente de testes para utilizar: zabbix e grafana.
 
-## Custo
+## Custo da infra
 
 | Name | Monthly Qty | Unit | Monthly Cost |
 |------|-------------|------|--------------|
